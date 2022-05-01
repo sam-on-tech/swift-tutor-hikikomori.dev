@@ -23,5 +23,10 @@ class Player {
     }
 }
 
+class ProfessionalPlayer: Player{
+    let experience: Int
+    let retirementApp: Int
+}
+
 let player = Player(name: "Ongar", city: "Astana", age: "19")
 print(player.PlayerInfo)
